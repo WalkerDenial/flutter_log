@@ -1,5 +1,9 @@
 name: flutter_log
+<<<<<<< HEAD
 description: A new Flutter project.
+=======
+description: A new flutter plugin project.
+>>>>>>> 9b5f6088f8e3b7918b3139db9aa4fd6c55f4f032
 version: 0.0.1
 homepage:
 
@@ -10,8 +14,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   flutter_web_plugins:
     sdk: flutter
+=======
+>>>>>>> 9b5f6088f8e3b7918b3139db9aa4fd6c55f4f032
 
 dev_dependencies:
   flutter_test:
@@ -29,6 +36,7 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
+<<<<<<< HEAD
       android:
         package: com.wd.flutter_log
         pluginClass: FlutterLogPlugin
@@ -37,6 +45,16 @@ flutter:
       web:
         pluginClass: FlutterLogWeb
         fileName: flutter_log_web.dart
+=======
+    # This plugin project was generated without specifying any
+    # platforms with the `--platform` argument. If you see the `some_platform` map below, remove it and
+    # then add platforms following the instruction here:
+    # https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms
+    # -------------------
+      some_platform:
+        pluginClass: somePluginClass
+    # -------------------
+>>>>>>> 9b5f6088f8e3b7918b3139db9aa4fd6c55f4f032
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

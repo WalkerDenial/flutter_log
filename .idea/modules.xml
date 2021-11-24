@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter_log.iml" filepath="$PROJECT_DIR$/flutter_log.iml" />
+<<<<<<< HEAD
     </modules>
   </component>
 </project>
+=======
+      <module fileurl="file://$PROJECT_DIR$/android/flutter_log_android.iml" filepath="$PROJECT_DIR$/android/flutter_log_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/flutter_log_example_android.iml" filepath="$PROJECT_DIR$/example/android/flutter_log_example_android.iml" />
+    </modules>
+  </component>
+</project>
+>>>>>>> 9b5f6088f8e3b7918b3139db9aa4fd6c55f4f032

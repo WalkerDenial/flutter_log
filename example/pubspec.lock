@@ -81,6 +81,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -93,6 +94,8 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.6.3"
+=======
+>>>>>>> 9b5f6088f8e3b7918b3139db9aa4fd6c55f4f032
   lints:
     dependency: transitive
     description:
