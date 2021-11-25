@@ -1,5 +1,6 @@
 package com.wd.flutter_log
 
+import android.util.Log
 import androidx.annotation.NonNull
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -22,12 +23,18 @@ class FlutterLogPlugin: FlutterPlugin, MethodCallHandler {
   }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-    if (call.method == "getPlatformVersion") {
-      result.success("Android ${android.os.Build.VERSION.RELEASE}")
-    } else if (call.method == "logI") {
-      
-    } else {
-      result.notImplemented()
+    when (call.method) {
+        "getPlatformVersion" -> {
+          result.success("Android ${android.os.Build.VERSION.RELEASE}")
+        }
+        "logI" -> {
+          val tag = call.argument<String>("tag")
+          val message = call.argument<String>("message")
+          Log.i(tag, message.orEmpty())
+        }
+        else -> {
+          result.notImplemented()
+        }
     }
   }
 

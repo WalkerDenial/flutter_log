@@ -48,6 +48,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    FlutterLog.i("aaaaaa", "插件输入日志信息");
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
